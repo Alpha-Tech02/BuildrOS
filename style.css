@@ -1,0 +1,239 @@
+/* ========== Global Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #F5F5F5;
+  color: #1F2937;
+  line-height: 1.6;
+}
+
+/* ========== Containers ========== */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ========== Header (Hero Section) ========== */
+.hero {
+  background-color: #1E1E2F;
+  color: #F5F5F5;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.accent {
+  color: #00E599;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #9CA3AF;
+  margin: 1rem 0 2rem;
+}
+
+.btn-primary {
+  background-color: #00E599;
+  color: #1E1E2F;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2DD4BF;
+  color: #1E1E2F;
+}
+
+/* ========== Sections ========== */
+.section {
+  margin: 4rem 0;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* ========== Cards Grid ========== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* ========== Buttons ========== */
+.btn-secondary {
+  background-color: transparent;
+  color: #00E599;
+  border: 2px solid #00E599;
+  padding: 1rem 0.rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #00E599;
+  color: #1E1E2F;
+}
+
+/* ========== Footer ========== */
+.footer {
+  background-color: #F5F5F5;
+  color: #9CA3AF;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #E5E7EB;
+}
+
+.btn-inline {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #00E599;
+  color: #1E1E2F;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.btn-inline:hover {
+  background-color: #2DD4BF;
+}
+
+/* ===== Navigation Bar ===== */
+.navbar {
+  background-color: #1E1E2F;
+  padding: 1rem 0;
+  border-bottom: 1px solid #2D2D3A;
+}
+
+.nav-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00E599;
+}
+
+/* === Contact Page === */
+.page-header {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 5rem auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #444cf7;
+  box-shadow: 0 0 0 3px rgba(68, 76, 247, 0.2);
+}
+
+.contact-form .btn {
+  background-color: #444cf7;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form .btn:hover {
+  background-color: #2d36c6;
+}
+
