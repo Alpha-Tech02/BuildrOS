@@ -40,4 +40,4 @@ You can reach the team using the [contact form](contact.html) or by email.
 
 ## License
 
-MIT © [Your Name]
+MIT © [HusseinEDDY]
